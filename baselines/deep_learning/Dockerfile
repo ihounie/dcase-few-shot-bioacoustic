@@ -5,4 +5,4 @@ RUN pip install -r /tmp/requirements.txt
 RUN pip install notebook
 RUN conda install --yes -c conda-forge librosa
 
-ENTRYPOINT [ "/bin/bash", "-c"]
+ENTRYPOINT [ "/bin/bash"]
