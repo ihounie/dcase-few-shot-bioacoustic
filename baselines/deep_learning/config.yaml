@@ -4,7 +4,7 @@ set:
   eval: false
 
 path:
-  root_dir:  /import/research_c4dm/ss380/Bird_Dev_train
+  root_dir:  ~/predmu/chona/audio/dcase-few-shot-bioacoustic
   train_dir: ${path.root_dir}/Training_Set
   eval_dir:  ${path.root_dir}/Validation_Set
   feat_path: ${path.root_dir}/Features
